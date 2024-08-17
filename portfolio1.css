@@ -1,0 +1,432 @@
+html,body{
+    scroll-behavior: smooth;
+    background-color: rgb(1, 1, 19);
+    background-color:rgb(1, 6, 27);
+    background-image:
+    radial-gradient(at 93% 16%, rgb(2, 2, 11) 0px, transparent 50%),
+    radial-gradient(at 71% 20%, rgb(21, 30, 59) 0px, transparent 50%),
+    radial-gradient(at 21% 39%, rgb(76, 76, 118) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, rgb(9, 20, 65) 0px, transparent 50%),
+    radial-gradient(at 4% 91%, hsla(240, 82%, 13%, 0.88) 0px, transparent 50%),
+    radial-gradient(at 4% 91%, hsla(234, 79%, 7%, 0.88) 0px, transparent 50%);
+}
+
+.look{
+    /* height: 100px;
+    width: 3px; */
+    background-color: aliceblue;
+    border-radius: 10px;
+    z-index: 0;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.div1{
+    height: 30px;    
+    padding: 7px 0px;
+    width: 40%;
+    margin: 4px auto 0px auto;
+    background-color: rgb(3, 17, 29);
+    border-radius: 20px;
+    display: flex;
+    border: solid;
+    justify-content: space-evenly;
+
+
+
+}
+.pro1{
+    text-align:center;
+    font-style: serif;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    padding:0px 15px;
+    color: white;
+    animation-name:glow;
+    animation-duration: 2s;
+    text-shadow: 0px 0px 5px white;
+
+}
+.pro1:hover{
+background-color: rgb(15, 119, 175);
+   
+}
+
+.dropdown button{
+    background-color: antiquewhite;
+}
+
+
+.cv1{
+    text-align: center;
+    font-style: italic;
+    border-radius: 20px;
+    background-color:rgb(0, 0, 0);
+    padding:0px 15px;
+    color: white;
+    text-shadow: 0px 0px 5px white;
+    
+}
+
+.cv1:hover{
+    background-color: rgb(101, 141, 176);
+}
+.abt1{
+    text-align: center;
+    font-style: serif;
+    border-radius: 20px;
+    background-color:rgb(0, 0, 0); 
+    padding:0px 15px;
+    color: white;
+    text-shadow: 0px 0px 5px white;
+
+
+}
+.abt1:hover{
+   background-color:  rgb(101, 141, 176);
+}
+
+.con1{
+    text-align: center;
+    font-style: serif;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    padding:0px 15px;
+    color: white;
+    text-shadow: 0px 0px 5px white;
+}
+.con1:hover{
+    background-color:  rgb(101, 141, 176);
+}
+.NAME{
+    width: 30em;
+    font-style: serif;
+    font-weight: bold;
+    margin-left: -160px;
+    font-size: 30px;
+    color: white;
+    padding: 250px;
+    margin-top: -550px;
+}
+
+h4{
+    margin-top: -50px;
+    font-size: 30px;
+    
+}
+
+h3{
+    margin-bottom: -50px;
+    font-size: 30px;
+}
+
+.loc{
+    height: 60px;
+    width: 40%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    margin: 3px auto 2px auto;
+    margin-left: 20px;
+    box-shadow: 5px 5px 5px rgb(150, 107, 107),-5px -5px 5px rgb(150, 107, 107);
+}
+img{
+    margin-left: 15px;
+
+}
+
+.line{
+    height: 180px;
+    width: 80%;
+    border-radius: 200px;
+    background-color: rgb(179, 194, 213);
+    margin-top: -45px;
+    margin-left:150px;
+    box-shadow: 10px 2px 5px white, -10px -2px 5px rgb(80, 142, 158);
+
+
+}
+
+.add{
+    margin-left: 800px;
+    border-radius: 400px;
+    margin-top: 100px;
+    
+
+}
+
+.pdb{
+    height: 350px;
+    width: 600px;
+    color: aliceblue;
+    font-style: serif;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    background-color:rgb(4, 17, 56);
+    background-image: 
+    radial-gradient(at 4% 91%, hsla(234, 82%, 11%, 0.88) 0px, transparent 50%),
+    radial-gradient(at 4% 91%, hsla(234, 71%, 20%, 0.88) 0px, transparent 50%),
+    radial-gradient(at 4% 91%, hsla(234, 46%, 35%, 0.88) 0px, transparent 50%),
+    radial-gradient(at 4% 91%, hsla(234, 36%, 79%, 0.88) 0px, transparent 50%);
+    border-radius: 20px;
+    margin: 20px 1px 5px auto;
+    margin-left: 50px;
+    box-shadow: 2px 3px 5px white, 2px 3px 5px white ;
+
+}
+
+.loc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loc svg{
+    padding: 5px 10px;
+    color:  hsla(234, 71%, 20%, 0.88);
+    height: 40px;
+    width: 40px;
+}
+
+.ppp{
+    height: 350px;
+    width: 600px;
+    color: aliceblue;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    background-color:rgb(4, 17, 56);
+    background-image: 
+    radial-gradient(at 4% 91%, hsla(234, 82%, 11%, 0.88) 0px, transparent 50%),
+    radial-gradient(at 4% 91%, hsla(234, 71%, 20%, 0.88) 0px, transparent 50%),
+    radial-gradient(at 4% 91%, hsla(234, 46%, 35%, 0.88) 0px, transparent 50%),
+    radial-gradient(at 4% 91%, hsla(234, 36%, 79%, 0.88) 0px, transparent 50%);
+    border-radius: 20px;
+    margin-top: -354px;
+    margin-left:750px;
+    box-shadow: 2px 3px 5px white, 2px 3px 5px white ;
+
+
+}
+
+.hit{
+    color: aliceblue;
+    margin-left: 650px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#img1{
+    border-radius: 30px;
+    margin-left: -290px;
+    margin-top: 60px;
+    height: 250px;
+    width: 250px;
+
+
+
+}
+
+h2{
+    margin-top: -310px;
+
+}
+h6{
+    position: static;
+    float: auto;
+    padding-left: 100px;
+    margin-left: 150px;
+    margin-top: 50px;   
+
+}
+
+#img3{
+    border-radius: 30px;
+    margin-left: -290px;
+    margin-top: 60px;
+    height: 250px;
+    width: 250px;
+
+}
+
+.back{
+    background-color: black;
+    width: 1428px;
+    height: 500px;
+    justify-content: space-around;
+    margin-left: -10px;
+    background-color:rgb(4, 17, 56);
+    background-image: 
+    radial-gradient(at 4% 91%, hsla(234, 87%, 9%, 0.88) 0px, transparent 50%),
+    radial-gradient(at 4% 91%, hsla(234, 25%, 45%, 0.88) 0px, transparent 50%),
+    radial-gradient(at 4% 91%, hsla(234, 28%, 21%, 0.88) 0px, transparent 50%),
+    radial-gradient(at 4% 91%, hsla(234, 36%, 79%, 0.88) 0px, transparent 50%),
+    radial-gradient(at 4% 91%, hsla(234, 87%, 9%, 0.858) 0px, transparent 50%);
+
+}
+
+.vis1{
+    height: 40px;
+    width: 100px;
+    background-color: rgb(164, 170, 205);
+    border-radius: 10px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 35px;
+    border: solid;
+
+
+
+}
+
+.vis1:hover{
+background-color: rgb(31, 124, 147); 
+}
+
+.dropdown:hover{
+    background-color: azure;
+}
+
+.vis{
+    height:40px;
+    width: 100px;
+    background-color: rgb(164, 170, 205);
+    border-radius: 10px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 80px;
+    margin-top: 35px;
+    border: solid;
+}
+
+.vis:hover{
+    background-color: rgb(31, 124, 147);
+}
+.dropdown:hover{
+    background-color: azure;
+}
+
+.id{
+    height: 200px;
+    width: 100px;
+    background-color: blanchedalmond;
+}
+
+.id{
+    height: 400px;
+    width: 1428px;
+    background-color: black;
+    margin-left: -10px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+    
+
+}
+
+.fn{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-left: 800px;
+
+}
+
+.lst{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-left: 800px;
+}
+
+.no{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-left: 800px;
+}
+
+.ml{
+    height: 30px;
+    width: 300px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-left: 800px;
+    margin-top: 50px;
+}
+
+.kit{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+    color: aliceblue;
+    margin-left: 700px;
+
+
+
+}
+
+.num{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 23px;
+    color: aliceblue;
+    margin-left:662px;
+}
+
+.mail{
+    font-style:italic;
+    font-weight:bold;
+    font-size: 25px;
+    color: aliceblue;
+    margin-left: 688px;
+    margin-top: 100px;
+
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    margin-left: 300px;
+    margin-top: -250px;
+    box-shadow: 0px 5px 5px white;
+
+
+}
+
+.ContactMe{
+    color: aliceblue;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0px 0px 5px white;
+}
+
+.button{
+    color: rgb(185, 200, 212);
+    border-radius: 5px;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgb(3, 26, 47);
+    margin-left: 700px;
+    font-size: larger;
+    padding: 5px;
+    text-shadow: 0px 0px 5px beige;
+
+}
+
+.button:hover{
+    background-color: rgb(33, 101, 160);
+}
